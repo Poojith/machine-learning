@@ -1,5 +1,5 @@
-# machine-learning
-ID3 Machine Learning algorithm for classification of customers and products.
+# Machine Learning 
+An ID3 Machine Learning algorithm for the classification of customers and products.
 
   * Supports nominal, discrete, and continuous attributes.
   * Does not make use of any external library or implementation.
@@ -25,16 +25,16 @@ The trained decision tree is used to classify labels by traversing down the tree
 Running the decision tree:
 --------------------------
 
-	* There are two separate .java source files for parts A (ID3.java) and B (ID3PartB.java). 
-	* These .java files can be run either on the terminal/command prompt or on an IDE.
-	* Each of these classes have a main method. Therefore, they can be run separately without relying on either of them.
-	* To run the implementation, please provide the file paths for the training and test data sets.
-	* The file paths are read into the program in the form of command line arguments.
-	* The first argument takes the path for the train data set.
-	* The second argument takes into consideration the test data set.
+* There are two separate .java source files for parts A (ID3.java) and B (ID3PartB.java). 
+* These .java files can be run either on the terminal/command prompt or on an IDE.
+* Each of these classes have a main method. Therefore, they can be run separately without relying on either of them.
+* To run the implementation, please provide the file paths for the training and test data sets.
+* The file paths are read into the program in the form of command line arguments.
+* The first argument takes the path for the train data set.
+* The second argument takes into consideration the test data set.
 
 
 Output of the decision tree:
 ----------------------------
-	* Accuracy of each fold of execution.
-	* Predicted output class labels for the test set.
+* Accuracy of each fold of execution.
+* Predicted output class labels for the test set.
